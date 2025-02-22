@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <title>LaslesVPN</title>
+    <link rel="stylesheet" href="output.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+      <link rel="icon" href="images/logoicon.png">
+  </head>
+    <body class="overflow-x-hidden" onload="AOS.init();" id="home" >
+    <header>
+      <nav data-aos="zoom-in" 
+        class="container max-w-[1220px] mx-auto px-4 py-4 flex justify-between items-center fixed top-0 left-0 right-0 z-10 md:bg-white md:shadow-lg md:rounded-2xl max-md:bg-white"
+      >
+        <div class="logo">
+          <a href="#home"><img src="images/Logo.svg" alt="logo" class="select-none pointer-events-none" /></a>
+        </div>
+        <ul class="hidden md:flex space-x-5">
+          <li>
+            <a
+              href="#about"
+              class="hover:text-primary font-medium transition-all duration-300 hover:scale-105"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="#features"
+              class="hover:text-primary font-medium transition-all duration-300 hover:scale-105"
+              >Features</a
+            >
+          </li>
+          <li>
+            <a
+              href="#pricing"
+              class="hover:text-primary font-medium transition-all duration-300 hover:scale-105"
+              >Pricing</a
+            >
+          </li>
+          <li>
+            <a
+              href="#testimonials"
+              class="hover:text-primary font-medium transition-all duration-300 hover:scale-105"
+              >Testimonials</a
+            >
+          </li>
+          <li>
+            <a
+              href="#help"
+              class="hover:text-primary font-medium transition-all duration-300 hover:scale-105"
+              >Help</a
+            >
+          </li>
+        </ul>
+        <div class="login space-x-4">
+          <button
+            class="hover:text-primary hidden sm:inline-flex font-bold cursor-pointer transition-all duration-300 hover:scale-105"
+          >
+            Sign In
+          </button>
+          <button
+            class="bg-white border border-primary text-primary px-4 py-2 rounded-full hover:bg-primary hover:text-white font-bold cursor-pointer transition-all duration-300"
+          >
+            Sign Up
+          </button>
+        </div>
+      </nav>
+    </header>
+    <section 
+        class="container max-w-[1220px] mx-auto px-4 py-4 md:flex justify-between items-center mt-52 space-x-4 mb-16 animate__animated animate__fadeIn"
+    >
+      <div class="space-y-4 w-full md:w-1/2 max-md:text-center">
+        <h1 class="lg:text-6xl md:text-4xl text-3xl font-bold">
+          Want anything to be easy with
+          <span class="text-primary">LaslesVPN.</span>
+        </h1>
+        <p class="text-lg">
+          Provide a network for all your needs with ease and fun using LaslesVPN
+          discover interesting features from us.
+        </p>
+        <button
+          class="bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary/80 max-md:w-1/2 max-md:rounded-full cursor-pointer font-bold"
+        >
+          Get Started
+        </button>
+      </div>
+      <div class="w-full md:w-1/2 md:mt-0 mt-16">
+        <img src="images/header-illustration.svg" alt="illustration" class="select-none pointer-events-none" />
+      </div>
+    </section>
+    <section data-aos="fade-down"id="about"
+      class="container max-w-[1220px] mx-auto px-4 py-4 md:flex justify-around items-center mt-24 space-x-4 mb-24 flex bg-white shadow-2xl shadow-black/5 rounded-lg max-md:flex-col max-md:space-x-0 max-md:space-y-4 max-md:w-1/2 max-md:rounded-4xl "
+    >
+      <div
+          class="border-secondary border-r-1 p-16 flex items-center space-x-4 max-md:border-b-1 max-md:border-r-0 max-md:justify-center "
+      >
+        <img
+          src="images/user-svgrepo-com.svg"
+          alt="user"
+          class="bg-tertiary rounded-full p-5 w-16 h-16 select-none pointer-events-none hover:bg-primary/80 hover:text-white transition-all duration-300"
+        />
+        <div class="space-y-2 max-md:space-y-0">
+            <h3 class="text-2xl font-bold max-md:text-lg text-primary">90+</h3>
+          <p >Users</p>
+        </div>
+      </div>
+      <div
+        class="border-secondary border-r-1 p-16 flex items-center space-x-4 max-md:border-b-1 max-md:border-r-0 max-md:justify-center  "
+      >
+        <img
+          src="images/location-pin-alt-svgrepo-com.svg"
+          alt="location"
+          class="bg-tertiary rounded-full p-5 w-16 h-16 select-none pointer-events-none hover:bg-primary/80 hover:text-white transition-all duration-300"
+        />
+        <div class="space-y-2 max-md:space-y-0">
+          <h3 class="text-2xl font-bold max-md:text-lg text-primary">30+</h3>
+          <p>Local</p>
+        </div>
+      </div>
+      <div class="p-16 flex items-center space-x-4 max-md:border-r-0 max-md:justify-center ">
+        <img
+          src="images/server-minimalistic-svgrepo-com.svg"
+          alt="server"
+          class="bg-tertiary rounded-full p-5 w-16 h-16 select-none pointer-events-none hover:bg-primary/80 hover:text-white transition-all duration-300"
+        />
+        <div class="space-y-2 max-md:space-y-0">
+          <h3 class="text-2xl font-bold max-md:text-lg text-primary">50+</h3>
+          <p>Serve</p>
+        </div>
+      </div>
+    </section>
+    <section  id="features"
+      class="container max-w-[1220px] mx-auto flex mt-30 space-x-10 max-md:flex-col-reverse max-md:space-x-0 max-md:space-y-4 mb-24 max-md:items-center "
+    >
+      <img
+        src="images/features-illustration.svg"
+        alt=""
+        class="w-1/2 max-md:w-full max-md:px-10 select-none pointer-events-none"
+      />
+      <div class="mt-20 w-1/2 max-md:text-center max-md:w-full max-md:px-10">
+        <h2
+          class="md:text-4xl text-3xl font-bold mb-4 max-md:text-center max-md:text-2xl"
+        >
+          We Provide Many Features You Can Use
+        </h2>
+        <p class="text-lg mb-4 max-md:text-lg">
+          You can explore the features that we provide with fun and have their
+          own functions each feature.
+        </p>
+        <div>
+          <p
+            class="flex space-x-2 mb-2 text-2xl font-bold items-center max-md:text-lg"
+          >
+            <img
+              src="images/correct-signal-svgrepo-com.svg"
+              alt=""
+              class="w-10 h-10 max-md:w-8 max-md:h-8 select-none pointer-events-none"
+            />Powerfull online protection.
+          </p>
+          <p
+            class="flex items-center space-x-2 mb-2 text-2xl font-bold max-md:text-lg"
+          >
+            <img
+              src="images/correct-signal-svgrepo-com.svg"
+              alt=""
+              class="w-10 h-10 max-md:w-8 max-md:h-8 select-none pointer-events-none"
+            />Internet without borders.
+          </p>
+          <p
+            class="flex items-center space-x-2 mb-2 text-2xl font-bold max-md:text-lg"
+          >
+            <img
+              src="images/correct-signal-svgrepo-com.svg"
+              alt=""
+              class="w-10 h-10 max-md:w-8 max-md:h-8 select-none pointer-events-none"
+            />Supercharged VPN
+          </p>
+          <p
+            class="flex items-center space-x-2 mb-2 text-2xl font-bold max-md:text-lg"
+          >
+            <img
+              src="images/correct-signal-svgrepo-com.svg"
+              alt=""
+              class="w-10 h-10 max-md:w-8 max-md:h-8 select-none pointer-events-none"
+            />No specific time limits.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section data-aos="fade-down" id="pricing"
+      class="container max-w-[1220px] mx-auto  py-4  justify-center  items-center mt-30  mb-16 flex rounded-lg max-md:flex-col max-md:space-x-0 max-md:space-y-4 max-md:w-1/2 max-md:rounded-b-4xl max-md:p-10   "
+    >
+      <div>
+        <h2 class="text-4xl max-md:text-xl text-center font-bold mb-4">
+          Choose Your Plan
+        </h2>
+        <p class="text-xl max-md:text-center mb-8 max-md:mb-10 text-center">
+          Let's choose the package that is best for you and explore it happily
+          and cheerfully. 
+        </p>
+        <div
+          class="ddd flex   max-md:flex-col max-md:space-x-0 max-md:space-y-10 max-md:rounded-b-4xl z-0  max-[912px]:gap-5 gap-20"
+        >
+          <div data-aos=""
+              class="card1 text-c border-2 border-white rounded-2xl p-4 shadow-lg hover:shadow-2xl hover:scale-105 hover:border-primary hover:bg-primary/80 hover:text-white max-md:rounded-b-4xl max-md:p-10 z-0   transition-all duration-500  md:w-1/3 "
+          >
+            <img src="images/Free.svg" alt="" class="w-full mb-4 select-none pointer-events-none" />
+            <p class="text-2xl font-bold text-center mb-20">Free Plan</p>
+            <p class="flex items-center space-x-4 mb-2 text-lg">
+              <img
+                src="images/correct-success-tick-svgrepo-com.svg"
+                alt=""
+                class="w-5 h-5 select-none pointer-events-none"
+              />Unlimited Bandwitch
+            </p>
+            <p class="flex items-center space-x-4 mb-2 text-lg">
+              <img
+                src="images/correct-success-tick-svgrepo-com.svg"
+                alt=""
+                class="w-5 h-5 select-none pointer-events-none"
+              />Encrypted Connection
+            </p>
+            <p class="flex items-center space-x-4 mb-2 text-lg">
+              <img
+                src="images/correct-success-tick-svgrepo-com.svg"
+                alt=""
+                class="w-5 h-5 select-none pointer-events-none"
+              />No Traffic Logs
+            </p>
+            <p class="flex items-center space-x-4 mb-2 text-lg">
+              <img
+                src="images/correct-success-tick-svgrepo-com.svg"
+                alt=""
+                class="w-5 h-5 select-none pointer-events-none"
+              />Works on All Devices
+            </p>
+            <div class="relative md:top-10">
+              <p class="text-2xl font-bold text-center mt-20 ">Free</p>
+            <button
+              class="bg-primary text-white px-20 py-2 rounded-lg hover:bg-primary/50 max-md:rounded-full cursor-pointer font-bold "
+            >
+              Select
+            </button>
+            </div>
+          </div>
+          <div data-aos=""
+                class="card2 text-center border-2 border-white rounded-2xl p-4 shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 hover:border-primary hover:bg-primary/80 hover:text-white max-md:rounded-b-4xl max-md:p-10 z-0  md:w-1/3  "
+          >
+              <img src="images/Free.svg" alt="" class="w-full mb-4 select-none pointer-events-none    " />
+            <p class="text-2xl font-bold text-center mb-20">Standard Plan</p>
+            <p class="flex items-center space-x-4 mb-2 text-lg">
+              <img
+                src="images/correct-success-tick-svgrepo-com.svg"
+                alt=""
+                class="w-5 h-5 select-none pointer-events-none"
+              />Unlimited Bandwitch
+            </p>
+            <p class="flex items-center space-x-4 mb-2 text-lg">
+              <img
+                src="images/correct-success-tick-svgrepo-com.svg"
+                alt=""
+                class="w-5 h-5 select-none pointer-events-none"
+              />Encrypted Connection
+            </p>
+            <p class="flex items-center space-x-4 mb-2 text-lg">
+              <img
+                src="images/correct-success-tick-svgrepo-com.svg"
+                alt=""
+                  class="w-5 h-5 select-none pointer-events-none"
+              />No Traffic Logs
+            </p>
+            <p class="flex items-center space-x-4 mb-2 text-lg">
+              <img
+                src="images/correct-success-tick-svgrepo-com.svg"
+                alt=""
+                class="w-5 h-5 select-none pointer-events-none "
+              />Works on All Devices
+            </p>
+            <p class="flex items-center space-x-4 mb-2 text-lg">
+              <img
+                src="images/correct-success-tick-svgrepo-com.svg"
+                alt=""
+                class="w-5 h-5 select-none pointer-events-none"
+              />No Traffic Logs
+            </p>
+            <div class="relative md:top-1">
+            <p class="text-2xl font-bold text-center mt-20 ">
+              $9 <span class="text-sm text-gray-500"> / month</span>
+            </p>
+            <button
+              class="bg-primary text-white px-20 py-2 rounded-lg hover:bg-primary/50 max-md:rounded-full cursor-pointer font-bold  "
+            >
+              Select
+            </button>
+            </div>
+          </div>
+          <div data-aos=""
+            class="card3 text-center border-2 border-white rounded-2xl p-4 shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 hover:border-primary hover:bg-primary/80 hover:text-white max-md:rounded-b-4xl max-md:p-10 z-0  md:w-1/3  "
+          >
+              <img src="images/Free.svg" alt="" class="w-full mb-4 select-none pointer-events-none  " />
+            <p class="text-2xl font-bold text-center mb-20">Premium Plan</p>
+            <p class="flex items-center space-x-4 mb-2 text-lg">
+              <img
+                src="images/correct-success-tick-svgrepo-com.svg"
+                alt=""
+                class="w-5 h-5 select-none pointer-events-none"
+              />Unlimited Bandwitch
+            </p>
+            <p class="flex items-center space-x-4 mb-2 text-lg">
+              <img
+                src="images/correct-success-tick-svgrepo-com.svg"
+                alt=""
+                class="w-5 h-5 select-none pointer-events-none"
+              />Encrypted Connection
+            </p>
+            <p class="flex items-center space-x-4 mb-2 text-lg">
+              <img
+                src="images/correct-success-tick-svgrepo-com.svg"
+                alt=""
+                class="w-5 h-5 select-none pointer-events-none"
+              />No Traffic Logs
+            </p>
+            <p class="flex items-center space-x-4 mb-2 text-lg">
+              <img
+                src="images/correct-success-tick-svgrepo-com.svg"
+                alt=""
+                class="w-5 h-5 select-none pointer-events-none"
+              />Works on All Devices
+            </p>
+            <p class="flex items-center space-x-4 mb-2 text-lg">
+              <img
+                src="images/correct-success-tick-svgrepo-com.svg"
+                alt=""
+                class="w-5 h-5 select-none pointer-events-none"
+              />Connect Anyware
+            </p>
+            <p class="flex items-center space-x-4 mb-2 text-lg">
+              <img
+                src="images/correct-success-tick-svgrepo-com.svg"
+                alt=""
+                class="w-5 h-5 select-none pointer-events-none"
+              />Get New Features
+            </p>
+            <div class="relative md:bottom-8">
+            <p class="text-2xl font-bold text-center mt-20 ">
+              $12 <span class="text-sm text-gray-500"> / month</span>
+            </p>
+            <button
+              class="bg-primary text-white px-20 py-2 rounded-lg hover:bg-primary/50 max-md:rounded-full cursor-pointer font-bold "
+            >
+              Select
+            </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section data-aos="zoom-in"
+      class="container max-w-[1220px] mx-auto px-4 py-4 md:flex-col items-center justify-center mt-30  mb-16 flex rounded-lg max-md:flex-col max-md:space-x-0 max-md:space-y-4 max-md:rounded-b-4xl max-md:p-10 "
+    >
+      <div>
+        <h2 class="text-4xl font-bold text-center mb-4 max-md:text-2xl">
+          Huge Global Network of Fast VPN
+        </h2>
+        <p class="text-xl text-center mb-8 max-md:text-lg">
+          See LaslesVPN everywhere to make it easier for you when you move
+          locations. 
+        </p>
+      </div>
+      <div>
+        <img
+          src="images/huge-global-illustration.svg"
+          alt=""
+          class="w-full max-md:w-full"
+        />
+      </div>
+    </section>
+    <section data-aos="fade-down"
+      class="container max-w-[1220px] mx-auto px-4 py-4 md:flex-col items-center justify-center mt-30 space-x-4 mb-16 flex rounded-lg max-md:flex-col max-md:space-x-0 max-md:space-y-4 max-md:rounded-b-4xl max-md:p-10 "
+    >
+      <div
+          class="flex space-x-4 justify-center items-center max-md:flex-col max-md:space-y-20"
+      >
+        <img src="images/Netflix.png" alt="" class="select-none md:w-1/7" />
+        <img src="images/Reddit.png" alt="" class="select-none md:w-1/7" />
+        <img src="images/Amazon.png" alt="" class="select-none md:w-1/7" />
+        <img src="images/Discord.png" alt="" class="select-none md:w-1/7" />
+        <img src="images/Spotify.png" alt="" class="select-none md:w-1/7" />
+      </div>
+    </section>
+    <section data-aos="fade-down" id="testimonials"
+      class="container max-w-[1220px] mx-auto px-4 py-4 md:flex items-center justify-center mt-30 space-x-4 mb-16 rounded-lg max-md:flex-col max-md:space-x-0 max-md:space-y-4 max-md:rounded-b-4xl max-md:p-10 "
+    >
+      <div class="flex flex-col space-y-4">
+        <p class="text-4xl font-bold text-center max-md:text-2xl">
+          Trusted by Thousands of Happy Customer
+        </p>
+        <p class="text-2xl text-center mb-10 max-md:text-lg">
+          These are the stories of our customers who have joined us with great
+          pleasure when using this crazy feature.
+        </p>
+        <div
+          class="flex space-x-4 max-md:flex-col max-md:space-y-6 max-md:space-x-0 max-md:items-center max-[1405px]:flex-col max-[1405px]:space-x-0 max-[1405px]:space-y-6 max-[1405px]:items-center "
+        >
+          <div 
+            class="card1 w-1/3 border-2 border-white rounded-2xl p-4 shadow-lg hover:shadow-2xl hover:scale-105 hover:border-primary hover:bg-primary/80 hover:text-white max-md:rounded-b-4xl max-md:p-10 px-10 max-md:w-full transition-all duration-300 scrollTrigger:box max-[1405px]:w-1/2 "
+          >
+            <div class="flex items-center justify-around space-x-4 mb-4">
+              <div class="flex items-center space-x-4">
+                <img src="images/user1.png" alt="" class="select-none" />
+                <div>
+                  <p class="font-bold">Viezh Robert</p>
+                  <p class="text-sm">Warsaw, Poland</p>
+                </div>
+              </div>
+              <p>4.5⭐</p>
+            </div>
+            <p class="text-lg">
+              “Wow... I am very happy to use this VPN, it turned out to be more
+              than my expectations and so much more.”
+            </p>
+          </div>
+          <div 
+            class="card2 w-1/3 border-2 border-white rounded-2xl p-4 shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 hover:border-primary hover:bg-primary/80 hover:text-white max-md:rounded-b-4xl max-md:p-10 px-10 max-md:w-full max-[1405px]:w-1/2"
+          >
+            <div class="flex items-center justify-around space-x-4 mb-4">
+              <div class="flex items-center space-x-4">
+                <img src="images/user2.png" alt="" class="select-none" />
+                <div>
+                  <p class="font-bold">Yessica Christy</p>
+                  <p class="text-sm">Shanxi, China</p>
+                </div>
+              </div>
+              <p>4.5⭐</p>
+            </div>
+            <p class="text-lg">
+              “I like it because I like to travel far and still can connect with
+              high speed.”
+            </p>
+          </div>
+          <div 
+            class="card3 w-1/3 border-2 border-white rounded-2xl p-4 shadow-lg hover:shadow-2xl  hover:scale-105 hover:border-primary hover:bg-primary/80 hover:text-white max-md:rounded-b-4xl max-md:p-10 px-10 max-md:w-full transition-all duration-300 max-[1405px]:w-1/2"
+          >
+            <div class="flex items-center justify-around space-x-4 mb-4">
+              <div class="flex items-center space-x-4">
+                <img src="images/user3.png" alt="" class="select-none" />
+                <div>
+                  <p class="font-bold">Kim Young Jou</p>
+                  <p class="text-sm">Seoul, South Korea</p>
+                </div>
+              </div>
+              <p>4.5⭐</p>
+            </div>
+            <p class="text-lg">
+              "This is very unusual for my business that currently requires a
+              virtual private network that has high security".
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section data-aos="fade-down" id="help"
+      class="container max-w-[1220px] mx-auto px-4 py-4 md:flex items-center justify-center mt-30 space-x-10 mb-16  max-md:space-x-0 max-md:space-y-4  max-md:p-10 "
+    >
+      <div
+        class="flex justify-between items-center space-y-4 space-x-12 shadow-lg rounded-lg max-md:rounded-b-4xl p-20 max-md:flex-col max-md:space-y-4 max-md:p-10 max-md:jus"
+      >
+        <div class="max-md:mx-auto">
+          <h2 class="text-4xl font-bold text-center max-md:text-2xl mb-4 text-primary " >
+            Subscribe Now for Get Special Features!
+          </h2>
+          <p class="text-2xl text-center mb-10 max-md:text-lg">
+            Let's subscribe with us and find the fun.
+          </p>
+        </div>
+        <button
+          class="bg-primary text-white px-20 py-2 rounded-lg hover:bg-primary/50 max-md:rounded-full cursor-pointer font-bold transition-all duration-300"
+        >
+          Subscribe Now
+        </button>
+      </div>
+    </section>
+    <footer data-aos="fade-down"  
+        class="container max-w-[1220px] mx-auto px-4 py-4 md:flex mt-30 space-x-2 rounded-lg justify-around mb-28 max-md:flex-col max-md:space-x-0 max-md:space-y-10 max-md:rounded-b-4xl max-md:p-10 max-md:wrap-reverse "
+    >
+        <div
+          class="space-y-4 max-md:space-y-10 max-md:w-full max-md:text-center w-2/5"
+        >
+          <img src="images/Logo.svg" alt="logo" class="max-md:mx-auto select-none pointer-events-none" />
+          <p class="text-2xl ">
+            LaslesVPN is a private virtual network that has unique features and
+            has high security.
+          </p>
+          <p class="text-2xl bg-primary/10 rounded-lg p-2 inline-block">
+            © 2020 <span class="font-bold text-primary">Lasles</span>VPN
+          </p>
+        </div>
+        <div class="max-md:hidden">
+          <p class="text-xl font-bold max-md:text-2xl border-l-4  border-primary/70 rounded-tl-xl rounded-bl-4xl pl-2  inline-block bg-primary/10 text-primary/80 mb-5">Product</p>
+          <p class="text-2xl"><a href="" class="hover:text-primary hover:underline mb-4 text-xl transition-all duration-300">Download</a></p>
+          <p class="text-2xl"><a href="" class="hover:text-primary hover:underline mb-4 text-xl transition-all duration-300 ">Pricing</a></p>
+          <p class="text-2xl"><a href="" class="hover:text-primary hover:underline mb-4 text-xl transition-all duration-300 ">Locations</a></p>
+          <p class="text-2xl"><a href="" class="hover:text-primary hover:underline mb-4 text-xl transition-all duration-300 ">Server</a></p>
+          <p class="text-2xl"><a href="" class="hover:text-primary hover:underline mb-4 text-xl transition-all duration-300 ">Countries</a></p>
+          <p class="text-2xl"><a href="" class="hover:text-primary hover:underline mb-4 text-xl transition-all duration-300">Blog</a></p>
+        </div>
+        <div class="max-md:hidden">
+          <p class="text-xl font-bold max-md:text-2xl border-l-4  border-primary/70 rounded-tl-xl rounded-bl-4xl pl-2  inline-block bg-primary/10 text-primary/80 mb-5">Engage</p>
+          <p class="text-2xl"><a href="" class="hover:text-primary hover:underline mb-4 text-xl transition-all duration-300">LaslesVPN?</a></p>
+          <p class="text-2xl"><a href="" class="hover:text-primary hover:underline mb-4 text-xl transition-all duration-300   ">FAQ</a></p>
+          <p class="text-2xl"><a href="" class="hover:text-primary hover:underline mb-4 text-xl transition-all duration-300   ">Tutorials</a></p>
+          <p class="text-2xl"><a href="" class="hover:text-primary hover:underline mb-4 text-xl transition-all duration-300     ">About Us</a></p>
+          <p class="text-2xl"><a href="" class="hover:text-primary hover:underline mb-4 text-xl transition-all duration-300 ">Privacy Policy</a></p>
+          <p class="text-2xl"><a href="" class="hover:text-primary hover:underline mb-4 text-xl transition-all duration-300">Terms of Service</a></p>
+        </div>
+        <div class="max-md:hidden">
+          <p class="text-xl font-bold max-md:text-2xl border-l-4  border-primary/70 rounded-tl-xl rounded-bl-4xl pl-2  inline-block bg-primary/10 text-primary/80 mb-5">Earn Money</p>
+          <p class="text-2xl"><a href="" class="hover:text-primary hover:underline mb-4 text-xl transition-all duration-300">Affiliate</a></p>
+          <p class="text-2xl"><a href="" class="hover:text-primary hover:underline mb-4 text-xl transition-all duration-300" >Become Partner</a></p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+  </body>
+</html>

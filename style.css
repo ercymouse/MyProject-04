@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import "tailwindcss";
+@theme {
+  --color-primary: rgb(245, 56, 56);
+  --color-secondary: rgb(238, 238, 238);
+  --color-tertiary: rgb(248, 211, 213);
+  --max-width-ercymouse: 1220px;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+::-webkit-scrollbar {
+  width: 6px; /* عرض السكرول */
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-secondary); /* لون الخلفية */
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary); /* لون السكرول نفسه */
+  border-radius: 2px; /* تدوير الحواف */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary); /* لون السكرول عند التحريك */
+}
+@layer utilities {
+  ::selection {
+    background-color: var(--color-primary); /* لون الخلفية عند التحديد */
+    color: white; /* لون النص عند التحديد */
+  }
+}
